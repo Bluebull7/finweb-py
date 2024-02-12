@@ -12,7 +12,7 @@ class Expense(object):
 
     def getExpenseDetails(self,expenseId,date,amount,category):
         
-        return expenseId, date, amount, category
+        return Expense.expenseId, Expense.date, Expense.amount, Expense.category
 
 
     
